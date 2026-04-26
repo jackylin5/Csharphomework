@@ -1,0 +1,31 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,0,-54,-121">
+        <Label Content="莊家" HorizontalAlignment="Left" Margin="67,31,0,0" VerticalAlignment="Top" Height="65" Width="104" FontSize="48"/>
+        <Label Content="玩家" HorizontalAlignment="Left" Margin="65,211,0,0" VerticalAlignment="Top" FontSize="48"/>
+        <Button x:Name="button1"  Content="" HorizontalAlignment="Left" Margin="82,133,0,0" VerticalAlignment="Top" Width="45" Click="Button_Click" Height="47"/>
+        <Button x:Name="button2"  Content=" " HorizontalAlignment="Left" Margin="158,133,0,0" VerticalAlignment="Top" Width="51" Click="Button_Click_1" Height="47"/>
+        <Button x:Name="button3" Visibility="Hidden" Content="" HorizontalAlignment="Left" Margin="242,133,0,0" VerticalAlignment="Top" Width="50" Height="47"/>
+        <Button x:Name="button4" Visibility="Hidden" Content="" HorizontalAlignment="Left" Margin="331,133,0,0" VerticalAlignment="Top" Width="57" Height="47"/>
+        <Button x:Name="button5" Visibility="Hidden" Content="" HorizontalAlignment="Left" Margin="422,133,0,0" VerticalAlignment="Top" Width="57" Height="47"/>
+        <Button x:Name="button11" Content="開始玩" HorizontalAlignment="Left" Margin="622,174,0,0" VerticalAlignment="Top" Width="138" Height="29" Click="Button11_Click"/>
+        <Button x:Name="button12" Content="要牌" HorizontalAlignment="Left" Margin="622,234,0,0" VerticalAlignment="Top" Width="138" Height="30" Click="Button12_Click"/>
+        <Button x:Name="button13" Content="不再要牌" HorizontalAlignment="Left" Margin="622,291,0,0" VerticalAlignment="Top" Width="138" Height="33" Click="Button13_Click"/>
+        <Label Content="玩家籌碼" HorizontalAlignment="Left" Margin="611,31,0,0" VerticalAlignment="Top"/>
+        <Label Content="下注籌碼" HorizontalAlignment="Left" Margin="611,95,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="686,33,0,0" TextWrapping="Wrap" Text="1000" VerticalAlignment="Top" Width="86" IsReadOnly="True" />
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" Margin="686,95,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="86"/>
+        <Button x:Name="button6" Content="" HorizontalAlignment="Left" Margin="82,303,0,0" VerticalAlignment="Top" Width="45" Click="Button_Click" Height="47"/>
+        <Button x:Name="button7" Content="" HorizontalAlignment="Left" Margin="158,303,0,0" VerticalAlignment="Top" Width="51" Click="Button_Click_1" Height="47"/>
+        <Button x:Name="button8" Visibility="Hidden" Content="" HorizontalAlignment="Left" Margin="242,303,0,0" VerticalAlignment="Top" Width="50" Height="47"/>
+        <Button x:Name="button9" Visibility="Hidden" Content="" HorizontalAlignment="Left" Margin="331,303,0,0" VerticalAlignment="Top" Width="57" Height="47"/>
+        <Button x:Name="button10" Visibility="Hidden" Content="" HorizontalAlignment="Left" Margin="422,303,0,0" VerticalAlignment="Top" Width="57" Height="47"/>
+
+    </Grid>
+</Window>
