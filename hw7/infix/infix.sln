@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.34526.175
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "infix", "infix\infix.csproj", "{780C03D0-5C39-4FBD-9CD8-3B1F72F6EEED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{780C03D0-5C39-4FBD-9CD8-3B1F72F6EEED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{780C03D0-5C39-4FBD-9CD8-3B1F72F6EEED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{780C03D0-5C39-4FBD-9CD8-3B1F72F6EEED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{780C03D0-5C39-4FBD-9CD8-3B1F72F6EEED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B66A67B3-2911-4590-97DC-3059CE47596F}
+	EndGlobalSection
+EndGlobal
